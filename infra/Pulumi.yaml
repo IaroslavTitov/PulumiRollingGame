@@ -1,0 +1,7 @@
+name: RollingGame
+runtime: dotnet
+description: A simple project to try pulumi
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: serverless-aws-csharp

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RollingGame", "infra\RollingGame.csproj", "{01D2F87A-CE75-4DB5-86E6-610A7A6BFDE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lambda", "lambda\Lambda.csproj", "{BB3A0526-B6AE-4A49-8F89-768C412A58A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01D2F87A-CE75-4DB5-86E6-610A7A6BFDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D2F87A-CE75-4DB5-86E6-610A7A6BFDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D2F87A-CE75-4DB5-86E6-610A7A6BFDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D2F87A-CE75-4DB5-86E6-610A7A6BFDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3A0526-B6AE-4A49-8F89-768C412A58A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3A0526-B6AE-4A49-8F89-768C412A58A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3A0526-B6AE-4A49-8F89-768C412A58A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3A0526-B6AE-4A49-8F89-768C412A58A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB95B3AE-B6D0-4954-9ECD-4FF8974F1DD7}
+	EndGlobalSection
+EndGlobal
